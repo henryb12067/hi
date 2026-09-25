@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; background: #1b1d21; font: 600 15px/1.2 system-ui, sans-serif; color: #e8e8e8; }
+  #sheet { display: grid; gap: 6px; padding: 6px; width: max-content; }
+  .tile { position: relative; }
+  .tile img { display: block; }
+  .tile span { position: absolute; left: 8px; top: 6px; padding: 2px 6px; background: rgba(0,0,0,.55); border-radius: 3px; }
+  #title { grid-column: 1 / -1; padding: 4px 4px 0; font-size: 17px; }
+</style>
+<script type="importmap">
+  { "imports": { "three": "http://kit.local/three/build/three.module.js", "three/addons/": "http://kit.local/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<div id="sheet"></div>
+<script type="module">
+import * as THREE from 'three';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+const SPEC = window.SPEC;
+const OPTS = window.OPTS;
+
+// Rough Roblox material look-alikes (flat-shaded, since every part is a flat-faced primitive).
+const MAT = {
+  SmoothPlastic: { roughness: 0.55, metalness: 0.0 },
+  Plastic: { roughness: 0.75, metalness: 0.0 },
+  Metal: { roughness: 0.42, metalness: 0.55 },
+  CorrodedMetal: { roughness: 0.8, metalness: 0.35 },
+  DiamondPlate: { roughness: 0.4, metalness: 0.6 },
+  Foil: { roughness: 0.3, metalness: 0.7 },
+  Wood: { roughness: 0.85, metalness: 0.0 },
+  WoodPlanks: { roughness: 0.85, metalness: 0.0 },
+  Fabric: { roughness: 1.0, metalness: 0.0 },
+  Slate: { roughness: 0.9, metalness: 0.0 },
+  Concrete: { roughness: 0.95, metalness: 0.0 },
+  Granite: { roughness: 0.85, metalness: 0.0 },
+  Marble: { roughness: 0.35, metalness: 0.0 },
+  Glass: { roughness: 0.1, metalness: 0.0 },
+  Neon: { roughness: 1.0, metalness: 0.0 },
+};
+
+function partGeometry(p) {
+  const [hx, hy, hz] = p.size.map((s) => s / 2);
+  let verts, faces;
+  if (p.shape === 'Block') {
+    verts = [[-hx,-hy,-hz],[hx,-hy,-hz],[hx,hy,-hz],[-hx,hy,-hz],[-hx,-hy,hz],[hx,-hy,hz],[hx,hy,hz],[-hx,hy,hz]];
+    faces = [[0,3,2,1],[4,5,6,7],[0,1,5,4],[3,7,6,2],[0,4,7,3],[1,2,6,5]];
+  } else {
+    verts = [[-hx,-hy,-hz],[hx,-hy,-hz],[hx,-hy,hz],[-hx,-hy,hz],[-hx,hy,hz],[hx,hy,hz]];
+    faces = [[0,1,2,3],[3,2,5,4],[0,4,5,1],[0,3,4],[1,5,2]];
+  }
+  const pos = [];
+  for (const f of faces) for (let i = 1; i < f.length - 1; i++) for (const k of [f[0], f[i], f[i + 1]]) pos.push(...verts[k]);
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+  g.computeVertexNormals();
+  return g;
+}
+
+function partMatrix(p) {
+  const R = p.rot;
+  const m = new THREE.Matrix4();
+  m.set(R[0], R[1], R[2], p.pos[0], R[3], R[4], R[5], p.pos[1], R[6], R[7], R[8], p.pos[2], 0, 0, 0, 1);
+  return m;
+}
+
+function buildWeapon(spec, { silhouette = false } = {}) {
+  const group = new THREE.Group();
+  const cache = new Map();
+  for (const p of spec.parts) {
+    const key = silhouette ? 'sil' : `${p.color}|${p.material}|${p.transparency}|${p.reflectance}`;
+    let mat = cache.get(key);
+    if (!mat) {
+      if (silhouette) mat = new THREE.MeshBasicMaterial({ color: 0x000000 });
+      else {
+        const base = MAT[p.material] || MAT.SmoothPlastic;
+        const color = new THREE.Color(p.color);
+        mat = new THREE.MeshStandardMaterial({
+          color, flatShading: true,
+          roughness: Math.max(0.05, base.roughness - p.reflectance * 0.5),
+          metalness: Math.min(1, base.metalness + p.reflectance * 0.5),
+          transparent: p.transparency > 0, opacity: 1 - p.transparency,
+          emissive: p.material === 'Neon' ? color : 0x000000,
+          emissiveIntensity: p.material === 'Neon' ? 1.6 : 0,
+          envMapIntensity: 0.55,
+        });
+      }
+      cache.set(key, mat);
+    }
+    const mesh = new THREE.Mesh(partGeometry(p), mat);
+    mesh.matrixAutoUpdate = false;
+    mesh.matrix.copy(partMatrix(p));
+    mesh.castShadow = mesh.receiveShadow = !silhouette;
+    group.add(mesh);
+  }
+  return group;
+}
+
+// Blocky R15-proportioned stand-in (≈5.2 studs tall) for scale checks.
+function mannequin() {
+  const g = new THREE.Group();
+  const mat = new THREE.MeshStandardMaterial({ color: 0xb9b3a8, roughness: 0.8, flatShading: true });
+  const box = (sx, sy, sz, x, y, z) => { const m = new THREE.Mesh(new THREE.BoxGeometry(sx, sy, sz), mat); m.position.set(x, y, z); m.castShadow = m.receiveShadow = true; g.add(m); };
+  box(1, 2, 1, 0, 1, -0.5); box(1, 2, 1, 0, 1, 0.5);          // legs (character faces +X here)
+  box(1, 2, 2, 0, 3, 0);                                   // torso
+  box(1, 2, 1, 0, 3, -1.5); box(1, 2, 1, 0, 3, 1.5);        // arms
+  box(1.2, 1.2, 1.2, 0, 4.6, 0);                           // head
+  return g;
+}
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+const pmrem = new THREE.PMREMGenerator(renderer);
+const envTex = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+
+function makeScene({ bg, withLights = true, env = true }) {
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color(bg);
+  if (env) scene.environment = envTex;
+  if (withLights) {
+    scene.add(new THREE.HemisphereLight(0xdfe6f0, 0x3a3530, 0.9));
+    const sun = new THREE.DirectionalLight(0xfff4e6, 2.1);
+    sun.position.set(6, 10, -4);
+    sun.castShadow = true;
+    sun.shadow.mapSize.set(2048, 2048);
+    sun.shadow.bias = -0.0004;
+    sun.shadow.normalBias = 0.01;
+    const c = sun.shadow.camera; c.left = -6; c.right = 6; c.top = 6; c.bottom = -6; c.near = 0.1; c.far = 40;
+    scene.add(sun);
+    scene.add(sun.target);
+    const rim = new THREE.DirectionalLight(0xbcd0ff, 0.9);
+    rim.position.set(-6, 3, 6);
+    scene.add(rim);
+  }
+  return scene;
+}
+
+function bounds(spec) {
+  const box = new THREE.Box3();
+  const tmp = new THREE.Vector3();
+  for (const p of spec.parts) {
+    const g = partGeometry(p);
+    const pos = g.getAttribute('position');
+    const m = partMatrix(p);
+    for (let i = 0; i < pos.count; i++) box.expandByPoint(tmp.fromBufferAttribute(pos, i).applyMatrix4(m));
+  }
+  return box;
+}
+
+// Fit an orthographic camera looking along -dir at `box`.
+function orthoFor(box, dir, up, w, h, pad = 1.08) {
+  const center = box.getCenter(new THREE.Vector3());
+  const cam = new THREE.OrthographicCamera();
+  cam.up.copy(up);
+  cam.position.copy(center).addScaledVector(dir, 50);
+  cam.lookAt(center);
+  cam.updateMatrixWorld();
+  // project box corners into camera space to get extents
+  const inv = cam.matrixWorldInverse;
+  const pts = [];
+  for (const x of [box.min.x, box.max.x]) for (const y of [box.min.y, box.max.y]) for (const z of [box.min.z, box.max.z])
+    pts.push(new THREE.Vector3(x, y, z).applyMatrix4(inv));
+  let maxX = 0, maxY = 0;
+  for (const p of pts) { maxX = Math.max(maxX, Math.abs(p.x)); maxY = Math.max(maxY, Math.abs(p.y)); }
+  const aspect = w / h;
+  let halfH = Math.max(maxY, maxX / aspect) * pad;
+  cam.left = -halfH * aspect; cam.right = halfH * aspect; cam.top = halfH; cam.bottom = -halfH;
+  cam.near = 0.1; cam.far = 200;
+  cam.updateProjectionMatrix();
+  return cam;
+}
+
+function perspFor(box, dir, up, w, h, fov = 28, pad = 1.08) {
+  // Tight fit: solve for the camera distance that keeps every box corner inside the frustum.
+  const center = box.getCenter(new THREE.Vector3());
+  const d = dir.clone().normalize();
+  const cam = new THREE.PerspectiveCamera(fov, w / h, 0.05, 400);
+  cam.up.copy(up);
+  cam.position.copy(center).addScaledVector(d, 10);
+  cam.lookAt(center);
+  cam.updateMatrixWorld();
+  const right = new THREE.Vector3().setFromMatrixColumn(cam.matrixWorld, 0);
+  const camUp = new THREE.Vector3().setFromMatrixColumn(cam.matrixWorld, 1);
+  const tv = Math.tan(THREE.MathUtils.degToRad(fov) / 2);
+  const th = tv * (w / h);
+  let dist = 0;
+  for (const x of [box.min.x, box.max.x]) for (const y of [box.min.y, box.max.y]) for (const z of [box.min.z, box.max.z]) {
+    const rel = new THREE.Vector3(x, y, z).sub(center);
+    const depth = rel.dot(d);
+    dist = Math.max(dist, depth + (Math.abs(rel.dot(right)) * pad) / th, depth + (Math.abs(rel.dot(camUp)) * pad) / tv);
+  }
+  cam.position.copy(center).addScaledVector(d, dist);
+  cam.lookAt(center);
+  cam.near = Math.max(0.01, dist / 100);
+  cam.updateProjectionMatrix();
+  return cam;
+}
+
+function snap(scene, cam, w, h) {
+  renderer.setSize(w, h, false);
+  renderer.render(scene, cam);
+  return renderer.domElement.toDataURL('image/png');
+}
+
+function subBox(full, y0, y1) {
+  // Region of the weapon between two fractions of its height, re-fit to the parts inside it.
+  const b = new THREE.Box3();
+  const h = full.max.y - full.min.y;
+  const lo = full.min.y + h * y0, hi = full.min.y + h * y1;
+  const tmp = new THREE.Vector3();
+  for (const p of SPEC.parts) {
+    const g = partGeometry(p), pos = g.getAttribute('position'), m = partMatrix(p);
+    for (let i = 0; i < pos.count; i++) {
+      tmp.fromBufferAttribute(pos, i).applyMatrix4(m);
+      if (tmp.y >= lo && tmp.y <= hi) b.expandByPoint(tmp);
+    }
+  }
+  if (b.isEmpty()) return full.clone();
+  b.min.y = Math.max(b.min.y, lo); b.max.y = Math.min(b.max.y, hi);
+  return b;
+}
+
+const full = bounds(SPEC);
+const UP = new THREE.Vector3(0, 1, 0);
+const BG = OPTS.bg || '#8b9097';
+const results = {};
+
+const weapon = () => buildWeapon(SPEC);
+const hilt = OPTS.hilt || [0, 0.34];
+const tip = OPTS.tip || [0.7, 1];
+
+const VIEWS = {
+  front: (w, h) => { const s = makeScene({ bg: BG }); s.add(weapon()); return snap(s, orthoFor(full, new THREE.Vector3(1, 0, 0), UP, w, h), w, h); },
+  back: (w, h) => { const s = makeScene({ bg: BG }); s.add(weapon()); return snap(s, orthoFor(full, new THREE.Vector3(-1, 0, 0), UP, w, h), w, h); },
+  edge: (w, h) => { const s = makeScene({ bg: BG }); s.add(weapon()); return snap(s, orthoFor(full, new THREE.Vector3(0, 0, -1), UP, w, h), w, h); },
+  hero: (w, h) => { const s = makeScene({ bg: BG }); s.add(weapon()); return snap(s, perspFor(full, new THREE.Vector3(1, 0.22, -0.75), UP, w, h, 24, 1.06), w, h); },
+  hilt: (w, h) => { const s = makeScene({ bg: BG }); s.add(weapon()); return snap(s, perspFor(subBox(full, ...hilt), new THREE.Vector3(1, 0.35, -0.8), UP, w, h, 30, 1.1), w, h); },
+  tip: (w, h) => { const s = makeScene({ bg: BG }); s.add(weapon()); return snap(s, perspFor(subBox(full, ...tip), new THREE.Vector3(1, -0.2, 0.7), UP, w, h, 30, 1.1), w, h); },
+  silhouette: (w, h) => { const s = makeScene({ bg: '#ffffff', withLights: false, env: false }); s.add(buildWeapon(SPEC, { silhouette: true })); return snap(s, orthoFor(full, new THREE.Vector3(1, 0, 0), UP, w, h), w, h); },
+  scale: (w, h) => {
+    const s = makeScene({ bg: BG });
+    const wpn = weapon();
+    wpn.position.set(0, -full.min.y, 3.4);
+    s.add(wpn);
+    s.add(mannequin());
+    const ground = new THREE.Mesh(new THREE.BoxGeometry(12, 0.2, 12), new THREE.MeshStandardMaterial({ color: 0x5f6368, roughness: 1 }));
+    ground.position.y = -0.1; ground.receiveShadow = true; s.add(ground);
+    const box = new THREE.Box3(new THREE.Vector3(-0.6, 0, -2.2), new THREE.Vector3(0.6, Math.max(5.2, full.max.y - full.min.y), 4.4));
+    return snap(s, perspFor(box, new THREE.Vector3(1, 0.12, 0.08), UP, w, h, 30, 1.04), w, h);
+  },
+  topdown: (w, h) => { const s = makeScene({ bg: BG }); s.add(weapon()); return snap(s, orthoFor(full, new THREE.Vector3(0, 1, 0), new THREE.Vector3(1, 0, 0), w, h), w, h); },
+};
+
+const sheet = document.getElementById('sheet');
+sheet.style.gridTemplateColumns = `repeat(${OPTS.columns}, auto)`;
+const title = document.createElement('div');
+title.id = 'title';
+title.textContent = OPTS.title || SPEC.meta.name;
+sheet.appendChild(title);
+for (const v of OPTS.views) {
+  const url = VIEWS[v.name](v.w, v.h);
+  results[v.name] = url;
+  if (OPTS.sheet) {
+    const d = document.createElement('div'); d.className = 'tile';
+    const img = document.createElement('img'); img.src = url; img.width = v.w; img.height = v.h;
+    const lab = document.createElement('span'); lab.textContent = v.label || v.name;
+    d.append(img, lab); sheet.appendChild(d);
+  }
+}
+await Promise.all([...document.images].map((i) => i.decode()));
+window.RESULTS = results;
+window.DONE = true;
+</script>
+</body>
+</html>
