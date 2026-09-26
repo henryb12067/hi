@@ -1,0 +1,3131 @@
+{
+ "meta": {
+  "name": "Gravestair",
+  "collection": "Cairnwrought",
+  "description": "A single-edged greatsword whose forge-black spine steps in, course by course, to a clipped point.",
+  "handle": "Handle",
+  "grip": {
+   "pos": [
+    0,
+    0,
+    0
+   ]
+  },
+  "render": {
+   "hilt": [
+    0,
+    0.43
+   ],
+   "tip": [
+    0.72,
+    1
+   ]
+  },
+  "slug": "gravestair"
+ },
+ "parts": [
+  {
+   "name": "Handle",
+   "shape": "Block",
+   "size": [
+    0.22,
+    1.36,
+    0.26
+   ],
+   "pos": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Fabric",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#3f3229"
+  },
+  {
+   "name": "Cord1",
+   "shape": "Block",
+   "size": [
+    0.25,
+    0.05,
+    0.29
+   ],
+   "pos": [
+    0,
+    -0.52,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    0.9659258262890685,
+    -0.2588190451025208,
+    0,
+    0.2588190451025208,
+    0.9659258262890685
+   ],
+   "material": "Fabric",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#251d18"
+  },
+  {
+   "name": "Cord2",
+   "shape": "Block",
+   "size": [
+    0.25,
+    0.05,
+    0.29
+   ],
+   "pos": [
+    0,
+    -0.36,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    0.9659258262890685,
+    -0.2588190451025208,
+    0,
+    0.2588190451025208,
+    0.9659258262890685
+   ],
+   "material": "Fabric",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#251d18"
+  },
+  {
+   "name": "Cord3",
+   "shape": "Block",
+   "size": [
+    0.25,
+    0.05,
+    0.29
+   ],
+   "pos": [
+    0,
+    -0.2,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    0.9659258262890685,
+    -0.2588190451025208,
+    0,
+    0.2588190451025208,
+    0.9659258262890685
+   ],
+   "material": "Fabric",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#251d18"
+  },
+  {
+   "name": "Cord4",
+   "shape": "Block",
+   "size": [
+    0.25,
+    0.05,
+    0.29
+   ],
+   "pos": [
+    0,
+    0.18,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    0.9659258262890685,
+    -0.2588190451025208,
+    0,
+    0.2588190451025208,
+    0.9659258262890685
+   ],
+   "material": "Fabric",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#251d18"
+  },
+  {
+   "name": "Cord5",
+   "shape": "Block",
+   "size": [
+    0.25,
+    0.05,
+    0.29
+   ],
+   "pos": [
+    0,
+    0.34,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    0.9659258262890685,
+    -0.2588190451025208,
+    0,
+    0.2588190451025208,
+    0.9659258262890685
+   ],
+   "material": "Fabric",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#251d18"
+  },
+  {
+   "name": "Cord6",
+   "shape": "Block",
+   "size": [
+    0.25,
+    0.05,
+    0.29
+   ],
+   "pos": [
+    0,
+    0.5,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    0.9659258262890685,
+    -0.2588190451025208,
+    0,
+    0.2588190451025208,
+    0.9659258262890685
+   ],
+   "material": "Fabric",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#251d18"
+  },
+  {
+   "name": "Lashing",
+   "shape": "Block",
+   "size": [
+    0.27,
+    0.13,
+    0.31
+   ],
+   "pos": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Fabric",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#6e4230"
+  },
+  {
+   "name": "LashingKnot",
+   "shape": "Block",
+   "size": [
+    0.06,
+    0.09,
+    0.09
+   ],
+   "pos": [
+    0.15,
+    0,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    0.7071067811865476,
+    -0.7071067811865475,
+    0,
+    0.7071067811865475,
+    0.7071067811865476
+   ],
+   "material": "Fabric",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#6e4230"
+  },
+  {
+   "name": "LashingTail",
+   "shape": "Block",
+   "size": [
+    0.03,
+    0.13,
+    0.07
+   ],
+   "pos": [
+    0.125,
+    -0.115,
+    0.012
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    0.9945218953682733,
+    0.10452846326765347,
+    0,
+    -0.10452846326765347,
+    0.9945218953682733
+   ],
+   "material": "Fabric",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#6e4230"
+  },
+  {
+   "name": "LashingTailEnd",
+   "shape": "Wedge",
+   "size": [
+    0.03,
+    0.07,
+    0.04500000000000001
+   ],
+   "pos": [
+    0.125,
+    -0.2025,
+    0.012000000000000004
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    -1,
+    0
+   ],
+   "material": "Fabric",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#6e4230"
+  },
+  {
+   "name": "Throat",
+   "shape": "Block",
+   "size": [
+    0.3,
+    0.12,
+    0.3
+   ],
+   "pos": [
+    0,
+    0.6599999999999999,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "ThroatFlankSpine",
+   "shape": "Wedge",
+   "size": [
+    0.3,
+    0.12,
+    0.09
+   ],
+   "pos": [
+    0,
+    0.6599999999999999,
+    0.195
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    -1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "ThroatFlankFwd",
+   "shape": "Wedge",
+   "size": [
+    0.3,
+    0.12,
+    0.09
+   ],
+   "pos": [
+    0,
+    0.6599999999999999,
+    -0.195
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "Ferrule",
+   "shape": "Block",
+   "size": [
+    0.3,
+    0.09999999999999998,
+    0.32
+   ],
+   "pos": [
+    0,
+    -0.6699999999999999,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "PommelCrown",
+   "shape": "Block",
+   "size": [
+    0.38,
+    0.08000000000000007,
+    0.36
+   ],
+   "pos": [
+    0,
+    -0.76,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "PommelChamferSpine",
+   "shape": "Wedge",
+   "size": [
+    0.38,
+    0.08000000000000007,
+    0.09000000000000002
+   ],
+   "pos": [
+    0,
+    -0.76,
+    0.225
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    -1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "PommelChamferFwd",
+   "shape": "Wedge",
+   "size": [
+    0.38,
+    0.08000000000000007,
+    0.09000000000000002
+   ],
+   "pos": [
+    0,
+    -0.76,
+    -0.225
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "PommelPostFwd",
+   "shape": "Block",
+   "size": [
+    0.38,
+    0.33999999999999986,
+    0.23
+   ],
+   "pos": [
+    0,
+    -0.97,
+    -0.155
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "PommelPostSpine",
+   "shape": "Block",
+   "size": [
+    0.38,
+    0.19999999999999996,
+    0.23
+   ],
+   "pos": [
+    0,
+    -0.9,
+    0.155
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "PommelLintel",
+   "shape": "Block",
+   "size": [
+    0.38,
+    0.03499999999999992,
+    0.08
+   ],
+   "pos": [
+    0,
+    -0.8175,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "PommelSill",
+   "shape": "Block",
+   "size": [
+    0.38,
+    0.17499999999999993,
+    0.08
+   ],
+   "pos": [
+    0,
+    -1.0525,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "PommelTang",
+   "shape": "Block",
+   "size": [
+    0.26,
+    0.15000000000000002,
+    0.1
+   ],
+   "pos": [
+    0,
+    -0.8999999999999999,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "PommelHeel",
+   "shape": "Block",
+   "size": [
+    0.38,
+    0.1399999999999999,
+    0.04
+   ],
+   "pos": [
+    0,
+    -1.0699999999999998,
+    0.06
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "PommelClip",
+   "shape": "Wedge",
+   "size": [
+    0.38,
+    0.1399999999999999,
+    0.19
+   ],
+   "pos": [
+    0,
+    -1.0699999999999998,
+    0.175
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    -1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "Peen",
+   "shape": "Block",
+   "size": [
+    0.1,
+    0.050000000000000044,
+    0.1
+   ],
+   "pos": [
+    0,
+    -1.165,
+    0
+   ],
+   "rot": [
+    0.7071067811865476,
+    0,
+    0.7071067811865475,
+    0,
+    1,
+    0,
+    -0.7071067811865475,
+    0,
+    0.7071067811865476
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "GuardHub",
+   "shape": "Block",
+   "size": [
+    0.36,
+    0.26,
+    0.7
+   ],
+   "pos": [
+    0,
+    0.85,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardHubCheekUpperPX",
+   "shape": "Wedge",
+   "size": [
+    0.7,
+    0.13,
+    0.08000000000000002
+   ],
+   "pos": [
+    0.22,
+    0.915,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    -1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardHubCheekLowerPX",
+   "shape": "Wedge",
+   "size": [
+    0.7,
+    0.13,
+    0.08000000000000002
+   ],
+   "pos": [
+    0.22,
+    0.7849999999999999,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    -1,
+    0,
+    -1,
+    0,
+    -1,
+    0,
+    0
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardHubCheekUpperNX",
+   "shape": "Wedge",
+   "size": [
+    0.7,
+    0.13,
+    0.08000000000000002
+   ],
+   "pos": [
+    -0.22,
+    0.915,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    -1,
+    0,
+    0
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardHubCheekLowerNX",
+   "shape": "Wedge",
+   "size": [
+    0.7,
+    0.13,
+    0.08000000000000002
+   ],
+   "pos": [
+    -0.22,
+    0.7849999999999999,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    1,
+    0,
+    -1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardSeat",
+   "shape": "Block",
+   "size": [
+    0.36,
+    0.07000000000000006,
+    0.61
+   ],
+   "pos": [
+    0,
+    1.0150000000000001,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardSeatFlankSpine",
+   "shape": "Wedge",
+   "size": [
+    0.36,
+    0.07000000000000006,
+    0.044999999999999984
+   ],
+   "pos": [
+    0,
+    1.0150000000000001,
+    0.3275
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    -1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardSeatFlankFwd",
+   "shape": "Wedge",
+   "size": [
+    0.36,
+    0.07000000000000006,
+    0.044999999999999984
+   ],
+   "pos": [
+    0,
+    1.0150000000000001,
+    -0.3275
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardArmFwdCore",
+   "shape": "Block",
+   "size": [
+    0.26,
+    0.590592922409336,
+    0.2
+   ],
+   "pos": [
+    0,
+    0.74,
+    -0.52
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    -0.47409982303501746,
+    0.8804710999221752,
+    0,
+    -0.8804710999221752,
+    -0.47409982303501746
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardArmFwdCheekUpperPX",
+   "shape": "Wedge",
+   "size": [
+    0.590592922409336,
+    0.10000000000000005,
+    0.07
+   ],
+   "pos": [
+    0.165,
+    0.7840235549961088,
+    -0.5437049911517509
+   ],
+   "rot": [
+    0,
+    0,
+    -1.0000000000000002,
+    0.4740998230350178,
+    0.8804710999221752,
+    0,
+    0.8804710999221752,
+    -0.4740998230350178,
+    0
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardArmFwdCheekLowerPX",
+   "shape": "Wedge",
+   "size": [
+    0.590592922409336,
+    0.10000000000000002,
+    0.07
+   ],
+   "pos": [
+    0.165,
+    0.6959764450038912,
+    -0.4962950088482492
+   ],
+   "rot": [
+    0,
+    0,
+    -1.0000000000000004,
+    -0.4740998230350174,
+    -0.8804710999221755,
+    0,
+    -0.8804710999221755,
+    0.4740998230350174,
+    0
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardArmFwdCheekUpperNX",
+   "shape": "Wedge",
+   "size": [
+    0.590592922409336,
+    0.10000000000000005,
+    0.07
+   ],
+   "pos": [
+    -0.165,
+    0.7840235549961088,
+    -0.5437049911517509
+   ],
+   "rot": [
+    0,
+    0,
+    0.9999999999999997,
+    -0.4740998230350177,
+    0.880471099922175,
+    0,
+    -0.880471099922175,
+    -0.4740998230350177,
+    0
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardArmFwdCheekLowerNX",
+   "shape": "Wedge",
+   "size": [
+    0.590592922409336,
+    0.10000000000000002,
+    0.07
+   ],
+   "pos": [
+    -0.165,
+    0.6959764450038912,
+    -0.4962950088482492
+   ],
+   "rot": [
+    0,
+    0,
+    1,
+    0.4740998230350173,
+    -0.8804710999221753,
+    0,
+    0.8804710999221753,
+    0.4740998230350173,
+    0
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardArmSpineCore",
+   "shape": "Block",
+   "size": [
+    0.26,
+    0.590592922409336,
+    0.2
+   ],
+   "pos": [
+    0,
+    0.74,
+    0.52
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    -0.47409982303501746,
+    0.8804710999221752,
+    0,
+    0.8804710999221752,
+    0.47409982303501746
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardArmSpineCheekUpperPX",
+   "shape": "Wedge",
+   "size": [
+    0.590592922409336,
+    0.10000000000000005,
+    0.07
+   ],
+   "pos": [
+    0.165,
+    0.7840235549961088,
+    0.5437049911517509
+   ],
+   "rot": [
+    0,
+    0,
+    -0.9999999999999997,
+    -0.4740998230350177,
+    0.880471099922175,
+    0,
+    0.880471099922175,
+    0.4740998230350177,
+    0
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardArmSpineCheekLowerPX",
+   "shape": "Wedge",
+   "size": [
+    0.590592922409336,
+    0.10000000000000002,
+    0.07
+   ],
+   "pos": [
+    0.165,
+    0.6959764450038912,
+    0.4962950088482492
+   ],
+   "rot": [
+    0,
+    0,
+    -1,
+    0.4740998230350173,
+    -0.8804710999221753,
+    0,
+    -0.8804710999221753,
+    -0.4740998230350173,
+    0
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardArmSpineCheekUpperNX",
+   "shape": "Wedge",
+   "size": [
+    0.590592922409336,
+    0.10000000000000005,
+    0.07
+   ],
+   "pos": [
+    -0.165,
+    0.7840235549961088,
+    0.5437049911517509
+   ],
+   "rot": [
+    0,
+    0,
+    1.0000000000000002,
+    0.4740998230350178,
+    0.8804710999221752,
+    0,
+    -0.8804710999221752,
+    0.4740998230350178,
+    0
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "GuardArmSpineCheekLowerNX",
+   "shape": "Wedge",
+   "size": [
+    0.590592922409336,
+    0.10000000000000002,
+    0.07
+   ],
+   "pos": [
+    -0.165,
+    0.6959764450038912,
+    0.4962950088482492
+   ],
+   "rot": [
+    0,
+    0,
+    1.0000000000000004,
+    -0.4740998230350174,
+    -0.8804710999221755,
+    0,
+    0.8804710999221755,
+    -0.4740998230350174,
+    0
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "RailFwd",
+   "shape": "Block",
+   "size": [
+    0.28,
+    0.3899999999999999,
+    0.18999999999999997
+   ],
+   "pos": [
+    0,
+    1.205,
+    -0.195
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "RailSpine",
+   "shape": "Block",
+   "size": [
+    0.28,
+    0.3899999999999999,
+    0.18999999999999997
+   ],
+   "pos": [
+    0,
+    1.205,
+    0.195
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "RicassoSill",
+   "shape": "Block",
+   "size": [
+    0.28,
+    0.09000000000000008,
+    0.2
+   ],
+   "pos": [
+    0,
+    1.0550000000000002,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "Capstone",
+   "shape": "Block",
+   "size": [
+    0.32,
+    0.2200000000000002,
+    0.58
+   ],
+   "pos": [
+    0,
+    1.51,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "CairnMark1",
+   "shape": "Block",
+   "size": [
+    0.332,
+    0.036,
+    0.2
+   ],
+   "pos": [
+    0,
+    1.4449999999999998,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "CairnMark2",
+   "shape": "Block",
+   "size": [
+    0.332,
+    0.036,
+    0.13
+   ],
+   "pos": [
+    0,
+    1.503,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "CairnMark3",
+   "shape": "Block",
+   "size": [
+    0.332,
+    0.036,
+    0.06
+   ],
+   "pos": [
+    0,
+    1.561,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "LangetFwdPX",
+   "shape": "Block",
+   "size": [
+    0.035,
+    0.25,
+    0.13
+   ],
+   "pos": [
+    0.15750000000000003,
+    1.175,
+    -0.195
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "LangetFwdTipPX",
+   "shape": "Wedge",
+   "size": [
+    0.035,
+    0.07000000000000006,
+    0.13
+   ],
+   "pos": [
+    0.15750000000000003,
+    1.335,
+    -0.195
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    -1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "LangetFwdNX",
+   "shape": "Block",
+   "size": [
+    0.035,
+    0.25,
+    0.13
+   ],
+   "pos": [
+    -0.15750000000000003,
+    1.175,
+    -0.195
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "LangetFwdTipNX",
+   "shape": "Wedge",
+   "size": [
+    0.035,
+    0.07000000000000006,
+    0.13
+   ],
+   "pos": [
+    -0.15750000000000003,
+    1.335,
+    -0.195
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    -1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "PinFwd",
+   "shape": "Block",
+   "size": [
+    0.38,
+    0.06,
+    0.06
+   ],
+   "pos": [
+    0,
+    1.18,
+    -0.195
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    0.7071067811865476,
+    -0.7071067811865475,
+    0,
+    0.7071067811865475,
+    0.7071067811865476
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "LangetSpinePX",
+   "shape": "Block",
+   "size": [
+    0.035,
+    0.25,
+    0.13
+   ],
+   "pos": [
+    0.15750000000000003,
+    1.175,
+    0.195
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "LangetSpineTipPX",
+   "shape": "Wedge",
+   "size": [
+    0.035,
+    0.07000000000000006,
+    0.13
+   ],
+   "pos": [
+    0.15750000000000003,
+    1.335,
+    0.195
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    -1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "LangetSpineNX",
+   "shape": "Block",
+   "size": [
+    0.035,
+    0.25,
+    0.13
+   ],
+   "pos": [
+    -0.15750000000000003,
+    1.175,
+    0.195
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "LangetSpineTipNX",
+   "shape": "Wedge",
+   "size": [
+    0.035,
+    0.07000000000000006,
+    0.13
+   ],
+   "pos": [
+    -0.15750000000000003,
+    1.335,
+    0.195
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    -1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2a2928"
+  },
+  {
+   "name": "PinSpine",
+   "shape": "Block",
+   "size": [
+    0.38,
+    0.06,
+    0.06
+   ],
+   "pos": [
+    0,
+    1.18,
+    0.195
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    0.7071067811865476,
+    -0.7071067811865475,
+    0,
+    0.7071067811865475,
+    0.7071067811865476
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "ShoulderFwd",
+   "shape": "Wedge",
+   "size": [
+    0.32,
+    0.15000000000000013,
+    0.09000000000000002
+   ],
+   "pos": [
+    0,
+    1.545,
+    -0.33499999999999996
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "ShoulderSpine",
+   "shape": "Wedge",
+   "size": [
+    0.31,
+    0.15000000000000013,
+    0.17500000000000004
+   ],
+   "pos": [
+    0,
+    1.545,
+    0.3775
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    -1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "EdgeLandLow",
+   "shape": "Block",
+   "size": [
+    0.06,
+    0.3999999999999999,
+    0.17
+   ],
+   "pos": [
+    0,
+    1.82,
+    -0.295
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "EdgeLandHigh",
+   "shape": "Block",
+   "size": [
+    0.06,
+    2.7683980857678,
+    0.17
+   ],
+   "pos": [
+    0,
+    3.5241990428839003,
+    -0.295
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "Tier1FlatFwd",
+   "shape": "Block",
+   "size": [
+    0.26,
+    1.3399999999999999,
+    0.15
+   ],
+   "pos": [
+    0,
+    2.29,
+    -0.135
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "Tier1FlatSpine",
+   "shape": "Block",
+   "size": [
+    0.26,
+    1.3399999999999999,
+    0.23000000000000004
+   ],
+   "pos": [
+    0,
+    2.29,
+    0.17500000000000002
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "Tier1Fuller",
+   "shape": "Block",
+   "size": [
+    0.19,
+    1.2,
+    0.12
+   ],
+   "pos": [
+    0,
+    2.36,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#383b3e"
+  },
+  {
+   "name": "Tier1FullerFoot",
+   "shape": "Block",
+   "size": [
+    0.26,
+    0.1399999999999999,
+    0.12
+   ],
+   "pos": [
+    0,
+    1.69,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "Tier1Rib",
+   "shape": "Block",
+   "size": [
+    0.31,
+    1.3399999999999999,
+    0.175
+   ],
+   "pos": [
+    0,
+    2.29,
+    0.37750000000000006
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "Tier1BevelLowPX",
+   "shape": "Wedge",
+   "size": [
+    0.3999999999999999,
+    0.1,
+    0.17
+   ],
+   "pos": [
+    0.08,
+    1.82,
+    -0.295
+   ],
+   "rot": [
+    0,
+    1,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "Tier1BevelLowNX",
+   "shape": "Wedge",
+   "size": [
+    0.3999999999999999,
+    0.1,
+    0.17
+   ],
+   "pos": [
+    -0.08,
+    1.82,
+    -0.295
+   ],
+   "rot": [
+    0,
+    -1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "Tier1BevelHighPX",
+   "shape": "Wedge",
+   "size": [
+    0.8199999999999998,
+    0.1,
+    0.17
+   ],
+   "pos": [
+    0.08,
+    2.55,
+    -0.295
+   ],
+   "rot": [
+    0,
+    1,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "Tier1BevelHighNX",
+   "shape": "Wedge",
+   "size": [
+    0.8199999999999998,
+    0.1,
+    0.17
+   ],
+   "pos": [
+    -0.08,
+    2.55,
+    -0.295
+   ],
+   "rot": [
+    0,
+    -1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "NickFloor",
+   "shape": "Block",
+   "size": [
+    0.11882352941176472,
+    0.1200000000000001,
+    0.12000000000000002
+   ],
+   "pos": [
+    0,
+    2.08,
+    -0.27
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "NickBevelPX",
+   "shape": "Wedge",
+   "size": [
+    0.1200000000000001,
+    0.07058823529411765,
+    0.12000000000000002
+   ],
+   "pos": [
+    0.09470588235294118,
+    2.08,
+    -0.27
+   ],
+   "rot": [
+    0,
+    1,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "NickBevelNX",
+   "shape": "Wedge",
+   "size": [
+    0.1200000000000001,
+    0.07058823529411765,
+    0.12000000000000002
+   ],
+   "pos": [
+    -0.09470588235294118,
+    2.08,
+    -0.27
+   ],
+   "rot": [
+    0,
+    -1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "NickBreak",
+   "shape": "Wedge",
+   "size": [
+    0.06,
+    0.04999999999999999,
+    0.1200000000000001
+   ],
+   "pos": [
+    0,
+    2.08,
+    -0.355
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    0,
+    -1,
+    0,
+    -1,
+    0
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "Tier2FlatFwd",
+   "shape": "Block",
+   "size": [
+    0.2,
+    1.1799999999999997,
+    0.15
+   ],
+   "pos": [
+    0,
+    3.55,
+    -0.135
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "Tier2FlatSpine",
+   "shape": "Block",
+   "size": [
+    0.2,
+    1.1799999999999997,
+    0.05999999999999997
+   ],
+   "pos": [
+    0,
+    3.55,
+    0.08999999999999998
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "Tier2Fuller",
+   "shape": "Block",
+   "size": [
+    0.13,
+    1.04,
+    0.12
+   ],
+   "pos": [
+    0,
+    3.48,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#383b3e"
+  },
+  {
+   "name": "Tier2FullerHead",
+   "shape": "Block",
+   "size": [
+    0.2,
+    0.13999999999999968,
+    0.12
+   ],
+   "pos": [
+    0,
+    4.07,
+    0
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "Tier2Rib",
+   "shape": "Block",
+   "size": [
+    0.25,
+    1.1799999999999997,
+    0.17500000000000002
+   ],
+   "pos": [
+    0,
+    3.55,
+    0.20749999999999996
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "Tier2BevelPX",
+   "shape": "Wedge",
+   "size": [
+    1.1799999999999997,
+    0.07,
+    0.17
+   ],
+   "pos": [
+    0.065,
+    3.55,
+    -0.295
+   ],
+   "rot": [
+    0,
+    1,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "Tier2BevelNX",
+   "shape": "Wedge",
+   "size": [
+    1.1799999999999997,
+    0.07,
+    0.17
+   ],
+   "pos": [
+    -0.065,
+    3.55,
+    -0.295
+   ],
+   "rot": [
+    0,
+    -1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "Tier2Fillet",
+   "shape": "Wedge",
+   "size": [
+    0.25,
+    0.08499999999999996,
+    0.08500000000000002
+   ],
+   "pos": [
+    0,
+    3.0025,
+    0.3375
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    -1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "Tier3Flat",
+   "shape": "Block",
+   "size": [
+    0.14,
+    0.6977899493351662,
+    0.18583182365340753
+   ],
+   "pos": [
+    0,
+    4.488894974667582,
+    -0.11708408817329623
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "Tier3FlatTaper",
+   "shape": "Wedge",
+   "size": [
+    0.14,
+    0.052740416437469406,
+    0.18583182365340753
+   ],
+   "pos": [
+    0,
+    4.864160157553901,
+    -0.11708408817329623
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    -1
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "Tier3Crown1",
+   "shape": "Wedge",
+   "size": [
+    0.14,
+    0.12964616158065223,
+    0.13425253038335613
+   ],
+   "pos": [
+    0,
+    4.981807666448269,
+    -0.19059841080986664
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    -0.5299192642332032,
+    -0.8480480961564272,
+    0,
+    -0.8480480961564272,
+    0.5299192642332032
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "Tier3Crown2",
+   "shape": "Wedge",
+   "size": [
+    0.14,
+    0.12964616158065223,
+    0.14320227301182115
+   ],
+   "pos": [
+    0,
+    4.864160157553901,
+    -0.11708408817329623
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    -0.5299192642332032,
+    0.8480480961564272,
+    0,
+    -0.8480480961564272,
+    -0.5299192642332032
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#54585b"
+  },
+  {
+   "name": "Tier3Rib",
+   "shape": "Block",
+   "size": [
+    0.19,
+    0.6977899493351662,
+    0.14916817634659246
+   ],
+   "pos": [
+    0,
+    4.488894974667582,
+    0.05041591182670377
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "Tier3RibPlunge",
+   "shape": "Wedge",
+   "size": [
+    0.19,
+    0.14916817634659246,
+    0.0932106216791917
+   ],
+   "pos": [
+    0,
+    4.884395260174761,
+    0.05041591182670377
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    0,
+    -1,
+    0,
+    -1,
+    0
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "Tier3Fillet",
+   "shape": "Wedge",
+   "size": [
+    0.19,
+    0.08499999999999996,
+    0.08500000000000002
+   ],
+   "pos": [
+    0,
+    4.182499999999999,
+    0.1675
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    -1
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "TipLandEdge1",
+   "shape": "Wedge",
+   "size": [
+    0.06,
+    0.18425131342001932,
+    0.1735407506200558
+   ],
+   "pos": [
+    0,
+    4.975969410150668,
+    -0.2729936881448627
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    -0.1910514719879934,
+    0.9815800196882684,
+    0,
+    0.9815800196882684,
+    0.1910514719879934
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "TipLandEdge2",
+   "shape": "Wedge",
+   "size": [
+    0.06,
+    0.18425131342001932,
+    0.4796369159609956
+   ],
+   "pos": [
+    0,
+    5.29654248356195,
+    -0.21059841080986663
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    -0.1910514719879934,
+    -0.9815800196882684,
+    0,
+    0.9815800196882684,
+    -0.1910514719879934
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "TipLandClip1",
+   "shape": "Wedge",
+   "size": [
+    0.06,
+    0.1850801593749109,
+    0.47931769449430395
+   ],
+   "pos": [
+    0,
+    5.29654248356195,
+    -0.21059841080986663
+   ],
+   "rot": [
+    -1,
+    0,
+    0,
+    0,
+    -0.5167305443253424,
+    -0.8561480856494601,
+    0,
+    -0.8561480856494601,
+    0.5167305443253424
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "TipLandClip2",
+   "shape": "Wedge",
+   "size": [
+    0.06,
+    0.1850801593749109,
+    0.24680436167307887
+   ],
+   "pos": [
+    0,
+    4.985708479394173,
+    -0.02299368814486269
+   ],
+   "rot": [
+    1,
+    0,
+    0,
+    0,
+    -0.5167305443253424,
+    0.8561480856494601,
+    0,
+    -0.8561480856494601,
+    -0.5167305443253424
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "FacetEdgePX",
+   "shape": "Block",
+   "size": [
+    0.028,
+    0.7763980857677995,
+    0.1746424919657298
+   ],
+   "pos": [
+    0.03637215964332994,
+    4.5241990428839,
+    -0.29179344932784235
+   ],
+   "rot": [
+    0.973417168333576,
+    0,
+    0.22903933372554733,
+    0,
+    1,
+    0,
+    -0.22903933372554733,
+    0,
+    0.973417168333576
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "FacetRisePX",
+   "shape": "Block",
+   "size": [
+    0.028,
+    0.20450069973596682,
+    0.17464249196572973
+   ],
+   "pos": [
+    0.03637215964332994,
+    4.99007484707391,
+    -0.27246193096326426
+   ],
+   "rot": [
+    -0.9734171683335759,
+    0,
+    -0.22903933372554744,
+    -0.04761995513865157,
+    0.9781476007338057,
+    0.20238480933926903,
+    0.22403427475731366,
+    0.20791169081775912,
+    -0.9521456677185823
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "FacetRisePointPX",
+   "shape": "Wedge",
+   "size": [
+    0.028,
+    0.17464249196572976,
+    0.42076476508077065
+   ],
+   "pos": [
+    0.03637215964332994,
+    5.295875804190009,
+    -0.20746193096326426
+   ],
+   "rot": [
+    0.973417168333576,
+    0.22903933372554744,
+    2.983724378680108e-16,
+    0.047619955138651575,
+    -0.20238480933926775,
+    -0.978147600733806,
+    -0.22403427475731366,
+    0.9521456677185827,
+    -0.2079116908177579
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "FacetClipPX",
+   "shape": "Block",
+   "size": [
+    0.028,
+    0.2774548033951773,
+    0.17464249196572976
+   ],
+   "pos": [
+    0.036372159643329946,
+    4.99878138271644,
+    -0.028317720002619076
+   ],
+   "rot": [
+    0.9734171683335759,
+    0,
+    -0.22903933372554747,
+    0.12137235520830554,
+    0.8480480961564261,
+    0.5158325096352981,
+    0.19423637091088686,
+    -0.5299192642332047,
+    0.8255045763712684
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "FacetClipPointPX",
+   "shape": "Wedge",
+   "size": [
+    0.028,
+    0.17464249196572978,
+    0.4207647650807705
+   ],
+   "pos": [
+    0.036372159643329946,
+    5.294843270589034,
+    -0.21331772000261906
+   ],
+   "rot": [
+    -0.9734171683335762,
+    0.22903933372554744,
+    1.249000902703301e-16,
+    -0.12137235520830553,
+    -0.5158325096352978,
+    -0.8480480961564267,
+    -0.19423637091088683,
+    -0.825504576371269,
+    0.5299192642332046
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "FacetEdgeNX",
+   "shape": "Block",
+   "size": [
+    0.028,
+    0.7763980857677995,
+    0.1746424919657298
+   ],
+   "pos": [
+    -0.03637215964332994,
+    4.5241990428839,
+    -0.29179344932784235
+   ],
+   "rot": [
+    0.973417168333576,
+    0,
+    -0.22903933372554733,
+    0,
+    1,
+    0,
+    0.22903933372554733,
+    0,
+    0.973417168333576
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "FacetRiseNX",
+   "shape": "Block",
+   "size": [
+    0.028,
+    0.20450069973596682,
+    0.17464249196572973
+   ],
+   "pos": [
+    -0.03637215964332994,
+    4.99007484707391,
+    -0.27246193096326426
+   ],
+   "rot": [
+    -0.9734171683335759,
+    0,
+    0.22903933372554744,
+    0.04761995513865157,
+    0.9781476007338057,
+    0.20238480933926903,
+    -0.22403427475731366,
+    0.20791169081775912,
+    -0.9521456677185823
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "FacetRisePointNX",
+   "shape": "Wedge",
+   "size": [
+    0.028,
+    0.17464249196572976,
+    0.42076476508077065
+   ],
+   "pos": [
+    -0.03637215964332994,
+    5.295875804190009,
+    -0.20746193096326426
+   ],
+   "rot": [
+    0.973417168333576,
+    -0.22903933372554744,
+    -2.983724378680108e-16,
+    -0.047619955138651575,
+    -0.20238480933926775,
+    -0.978147600733806,
+    0.22403427475731366,
+    0.9521456677185827,
+    -0.2079116908177579
+   ],
+   "material": "Metal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#878c8f"
+  },
+  {
+   "name": "FacetClipNX",
+   "shape": "Block",
+   "size": [
+    0.028,
+    0.2774548033951773,
+    0.17464249196572976
+   ],
+   "pos": [
+    -0.036372159643329946,
+    4.99878138271644,
+    -0.028317720002619076
+   ],
+   "rot": [
+    0.9734171683335759,
+    0,
+    0.22903933372554747,
+    -0.12137235520830554,
+    0.8480480961564261,
+    0.5158325096352981,
+    -0.19423637091088686,
+    -0.5299192642332047,
+    0.8255045763712684
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  },
+  {
+   "name": "FacetClipPointNX",
+   "shape": "Wedge",
+   "size": [
+    0.028,
+    0.17464249196572978,
+    0.4207647650807705
+   ],
+   "pos": [
+    -0.036372159643329946,
+    5.294843270589034,
+    -0.21331772000261906
+   ],
+   "rot": [
+    -0.9734171683335762,
+    -0.22903933372554738,
+    -1.249000902703301e-16,
+    0.12137235520830553,
+    -0.5158325096352977,
+    -0.8480480961564265,
+    0.19423637091088683,
+    -0.8255045763712687,
+    0.5299192642332045
+   ],
+   "material": "CorrodedMetal",
+   "reflectance": 0,
+   "transparency": 0,
+   "color": "#2b2c2e"
+  }
+ ]
+}

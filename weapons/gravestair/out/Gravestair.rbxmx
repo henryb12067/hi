@@ -1,0 +1,3485 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+<Item class="Tool" referent="RBX00000000">
+  <Properties>
+    <string name="Name">Gravestair</string>
+    <string name="ToolTip">Gravestair</string>
+    <bool name="RequiresHandle">true</bool>
+    <bool name="CanBeDropped">true</bool>
+    <bool name="ManualActivationOnly">false</bool>
+    <CoordinateFrame name="Grip"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+  </Properties>
+  <Item class="Part" referent="RBX00000001">
+    <Properties>
+      <string name="Name">Handle</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">true</bool>
+      <bool name="CanQuery">true</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.22</X><Y>1.36</Y><Z>0.26</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4282331689</Color3uint8>
+      <token name="Material">1312</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+  </Item>
+  <Item class="Part" referent="RBX00000002">
+    <Properties>
+      <string name="Name">Cord1</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-0.52</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.965926</R11><R12>-0.258819</R12><R20>0</R20><R21>0.258819</R21><R22>0.965926</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.25</X><Y>0.05</Y><Z>0.29</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280622360</Color3uint8>
+      <token name="Material">1312</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000006C">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000002</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-0.52</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.965926</R11><R12>-0.258819</R12><R20>0</R20><R21>0.258819</R21><R22>0.965926</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000003">
+    <Properties>
+      <string name="Name">Cord2</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-0.36</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.965926</R11><R12>-0.258819</R12><R20>0</R20><R21>0.258819</R21><R22>0.965926</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.25</X><Y>0.05</Y><Z>0.29</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280622360</Color3uint8>
+      <token name="Material">1312</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000006D">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000003</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-0.36</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.965926</R11><R12>-0.258819</R12><R20>0</R20><R21>0.258819</R21><R22>0.965926</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000004">
+    <Properties>
+      <string name="Name">Cord3</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-0.2</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.965926</R11><R12>-0.258819</R12><R20>0</R20><R21>0.258819</R21><R22>0.965926</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.25</X><Y>0.05</Y><Z>0.29</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280622360</Color3uint8>
+      <token name="Material">1312</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000006E">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000004</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-0.2</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.965926</R11><R12>-0.258819</R12><R20>0</R20><R21>0.258819</R21><R22>0.965926</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000005">
+    <Properties>
+      <string name="Name">Cord4</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>0.18</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.965926</R11><R12>-0.258819</R12><R20>0</R20><R21>0.258819</R21><R22>0.965926</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.25</X><Y>0.05</Y><Z>0.29</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280622360</Color3uint8>
+      <token name="Material">1312</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000006F">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000005</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>0.18</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.965926</R11><R12>-0.258819</R12><R20>0</R20><R21>0.258819</R21><R22>0.965926</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000006">
+    <Properties>
+      <string name="Name">Cord5</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>0.34</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.965926</R11><R12>-0.258819</R12><R20>0</R20><R21>0.258819</R21><R22>0.965926</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.25</X><Y>0.05</Y><Z>0.29</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280622360</Color3uint8>
+      <token name="Material">1312</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000070">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000006</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>0.34</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.965926</R11><R12>-0.258819</R12><R20>0</R20><R21>0.258819</R21><R22>0.965926</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000007">
+    <Properties>
+      <string name="Name">Cord6</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>0.5</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.965926</R11><R12>-0.258819</R12><R20>0</R20><R21>0.258819</R21><R22>0.965926</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.25</X><Y>0.05</Y><Z>0.29</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280622360</Color3uint8>
+      <token name="Material">1312</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000071">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000007</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>0.5</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.965926</R11><R12>-0.258819</R12><R20>0</R20><R21>0.258819</R21><R22>0.965926</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000008">
+    <Properties>
+      <string name="Name">Lashing</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.27</X><Y>0.13</Y><Z>0.31</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4285415984</Color3uint8>
+      <token name="Material">1312</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000072">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000008</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000009">
+    <Properties>
+      <string name="Name">LashingKnot</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.15</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.707107</R11><R12>-0.707107</R12><R20>0</R20><R21>0.707107</R21><R22>0.707107</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.06</X><Y>0.09</Y><Z>0.09</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4285415984</Color3uint8>
+      <token name="Material">1312</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000073">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000009</Ref>
+        <CoordinateFrame name="C0"><X>0.15</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.707107</R11><R12>-0.707107</R12><R20>0</R20><R21>0.707107</R21><R22>0.707107</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX0000000A">
+    <Properties>
+      <string name="Name">LashingTail</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.125</X><Y>-0.115</Y><Z>0.012</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.994522</R11><R12>0.104528</R12><R20>0</R20><R21>-0.104528</R21><R22>0.994522</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.03</X><Y>0.13</Y><Z>0.07</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4285415984</Color3uint8>
+      <token name="Material">1312</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000074">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000000A</Ref>
+        <CoordinateFrame name="C0"><X>0.125</X><Y>-0.115</Y><Z>0.012</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.994522</R11><R12>0.104528</R12><R20>0</R20><R21>-0.104528</R21><R22>0.994522</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000000B">
+    <Properties>
+      <string name="Name">LashingTailEnd</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.125</X><Y>-0.2025</Y><Z>0.012</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0</R11><R12>1</R12><R20>0</R20><R21>-1</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.03</X><Y>0.07</Y><Z>0.045</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4285415984</Color3uint8>
+      <token name="Material">1312</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000075">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000000B</Ref>
+        <CoordinateFrame name="C0"><X>0.125</X><Y>-0.2025</Y><Z>0.012</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0</R11><R12>1</R12><R20>0</R20><R21>-1</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX0000000C">
+    <Properties>
+      <string name="Name">Throat</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>0.66</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.3</X><Y>0.12</Y><Z>0.3</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000076">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000000C</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>0.66</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000000D">
+    <Properties>
+      <string name="Name">ThroatFlankSpine</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>0.66</Y><Z>0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.3</X><Y>0.12</Y><Z>0.09</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000077">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000000D</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>0.66</Y><Z>0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000000E">
+    <Properties>
+      <string name="Name">ThroatFlankFwd</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>0.66</Y><Z>-0.195</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.3</X><Y>0.12</Y><Z>0.09</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000078">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000000E</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>0.66</Y><Z>-0.195</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX0000000F">
+    <Properties>
+      <string name="Name">Ferrule</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-0.67</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.3</X><Y>0.1</Y><Z>0.32</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000079">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000000F</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-0.67</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000010">
+    <Properties>
+      <string name="Name">PommelCrown</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-0.76</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.38</X><Y>0.08</Y><Z>0.36</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000007A">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000010</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-0.76</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000011">
+    <Properties>
+      <string name="Name">PommelChamferSpine</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-0.76</Y><Z>0.225</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.38</X><Y>0.08</Y><Z>0.09</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000007B">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000011</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-0.76</Y><Z>0.225</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000012">
+    <Properties>
+      <string name="Name">PommelChamferFwd</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-0.76</Y><Z>-0.225</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.38</X><Y>0.08</Y><Z>0.09</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000007C">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000012</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-0.76</Y><Z>-0.225</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000013">
+    <Properties>
+      <string name="Name">PommelPostFwd</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-0.97</Y><Z>-0.155</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.38</X><Y>0.34</Y><Z>0.23</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000007D">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000013</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-0.97</Y><Z>-0.155</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000014">
+    <Properties>
+      <string name="Name">PommelPostSpine</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-0.9</Y><Z>0.155</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.38</X><Y>0.2</Y><Z>0.23</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000007E">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000014</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-0.9</Y><Z>0.155</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000015">
+    <Properties>
+      <string name="Name">PommelLintel</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-0.8175</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.38</X><Y>0.035</Y><Z>0.08</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000007F">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000015</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-0.8175</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000016">
+    <Properties>
+      <string name="Name">PommelSill</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-1.0525</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.38</X><Y>0.175</Y><Z>0.08</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000080">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000016</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-1.0525</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000017">
+    <Properties>
+      <string name="Name">PommelTang</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-0.9</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.26</X><Y>0.15</Y><Z>0.1</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000081">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000017</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-0.9</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000018">
+    <Properties>
+      <string name="Name">PommelHeel</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-1.07</Y><Z>0.06</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.38</X><Y>0.14</Y><Z>0.04</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000082">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000018</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-1.07</Y><Z>0.06</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000019">
+    <Properties>
+      <string name="Name">PommelClip</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-1.07</Y><Z>0.175</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.38</X><Y>0.14</Y><Z>0.19</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000083">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000019</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-1.07</Y><Z>0.175</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX0000001A">
+    <Properties>
+      <string name="Name">Peen</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>-1.165</Y><Z>0</Z><R00>0.707107</R00><R01>0</R01><R02>0.707107</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-0.707107</R20><R21>0</R21><R22>0.707107</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.1</X><Y>0.05</Y><Z>0.1</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000084">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000001A</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>-1.165</Y><Z>0</Z><R00>0.707107</R00><R01>0</R01><R02>0.707107</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-0.707107</R20><R21>0</R21><R22>0.707107</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX0000001B">
+    <Properties>
+      <string name="Name">GuardHub</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>0.85</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.36</X><Y>0.26</Y><Z>0.7</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000085">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000001B</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>0.85</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000001C">
+    <Properties>
+      <string name="Name">GuardHubCheekUpperPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.22</X><Y>0.915</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.7</X><Y>0.13</Y><Z>0.08</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000086">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000001C</Ref>
+        <CoordinateFrame name="C0"><X>0.22</X><Y>0.915</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000001D">
+    <Properties>
+      <string name="Name">GuardHubCheekLowerPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.22</X><Y>0.785</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.7</X><Y>0.13</Y><Z>0.08</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000087">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000001D</Ref>
+        <CoordinateFrame name="C0"><X>0.22</X><Y>0.785</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000001E">
+    <Properties>
+      <string name="Name">GuardHubCheekUpperNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.22</X><Y>0.915</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.7</X><Y>0.13</Y><Z>0.08</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000088">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000001E</Ref>
+        <CoordinateFrame name="C0"><X>-0.22</X><Y>0.915</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000001F">
+    <Properties>
+      <string name="Name">GuardHubCheekLowerNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.22</X><Y>0.785</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.7</X><Y>0.13</Y><Z>0.08</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000089">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000001F</Ref>
+        <CoordinateFrame name="C0"><X>-0.22</X><Y>0.785</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000020">
+    <Properties>
+      <string name="Name">GuardSeat</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.015</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.36</X><Y>0.07</Y><Z>0.61</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000008A">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000020</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.015</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000021">
+    <Properties>
+      <string name="Name">GuardSeatFlankSpine</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.015</Y><Z>0.3275</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.36</X><Y>0.07</Y><Z>0.045</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000008B">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000021</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.015</Y><Z>0.3275</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000022">
+    <Properties>
+      <string name="Name">GuardSeatFlankFwd</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.015</Y><Z>-0.3275</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.36</X><Y>0.07</Y><Z>0.045</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000008C">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000022</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.015</Y><Z>-0.3275</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000023">
+    <Properties>
+      <string name="Name">GuardArmFwdCore</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>0.74</Y><Z>-0.52</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.4741</R11><R12>0.880471</R12><R20>0</R20><R21>-0.880471</R21><R22>-0.4741</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.26</X><Y>0.590593</Y><Z>0.2</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000008D">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000023</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>0.74</Y><Z>-0.52</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.4741</R11><R12>0.880471</R12><R20>0</R20><R21>-0.880471</R21><R22>-0.4741</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000024">
+    <Properties>
+      <string name="Name">GuardArmFwdCheekUpperPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.165</X><Y>0.784024</Y><Z>-0.543705</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0.4741</R10><R11>0.880471</R11><R12>0</R12><R20>0.880471</R20><R21>-0.4741</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.590593</X><Y>0.1</Y><Z>0.07</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000008E">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000024</Ref>
+        <CoordinateFrame name="C0"><X>0.165</X><Y>0.784024</Y><Z>-0.543705</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0.4741</R10><R11>0.880471</R11><R12>0</R12><R20>0.880471</R20><R21>-0.4741</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000025">
+    <Properties>
+      <string name="Name">GuardArmFwdCheekLowerPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.165</X><Y>0.695976</Y><Z>-0.496295</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>-0.4741</R10><R11>-0.880471</R11><R12>0</R12><R20>-0.880471</R20><R21>0.4741</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.590593</X><Y>0.1</Y><Z>0.07</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000008F">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000025</Ref>
+        <CoordinateFrame name="C0"><X>0.165</X><Y>0.695976</Y><Z>-0.496295</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>-0.4741</R10><R11>-0.880471</R11><R12>0</R12><R20>-0.880471</R20><R21>0.4741</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000026">
+    <Properties>
+      <string name="Name">GuardArmFwdCheekUpperNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.165</X><Y>0.784024</Y><Z>-0.543705</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>-0.4741</R10><R11>0.880471</R11><R12>0</R12><R20>-0.880471</R20><R21>-0.4741</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.590593</X><Y>0.1</Y><Z>0.07</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000090">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000026</Ref>
+        <CoordinateFrame name="C0"><X>-0.165</X><Y>0.784024</Y><Z>-0.543705</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>-0.4741</R10><R11>0.880471</R11><R12>0</R12><R20>-0.880471</R20><R21>-0.4741</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000027">
+    <Properties>
+      <string name="Name">GuardArmFwdCheekLowerNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.165</X><Y>0.695976</Y><Z>-0.496295</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0.4741</R10><R11>-0.880471</R11><R12>0</R12><R20>0.880471</R20><R21>0.4741</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.590593</X><Y>0.1</Y><Z>0.07</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000091">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000027</Ref>
+        <CoordinateFrame name="C0"><X>-0.165</X><Y>0.695976</Y><Z>-0.496295</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0.4741</R10><R11>-0.880471</R11><R12>0</R12><R20>0.880471</R20><R21>0.4741</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000028">
+    <Properties>
+      <string name="Name">GuardArmSpineCore</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>0.74</Y><Z>0.52</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.4741</R11><R12>0.880471</R12><R20>0</R20><R21>0.880471</R21><R22>0.4741</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.26</X><Y>0.590593</Y><Z>0.2</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000092">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000028</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>0.74</Y><Z>0.52</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.4741</R11><R12>0.880471</R12><R20>0</R20><R21>0.880471</R21><R22>0.4741</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000029">
+    <Properties>
+      <string name="Name">GuardArmSpineCheekUpperPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.165</X><Y>0.784024</Y><Z>0.543705</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>-0.4741</R10><R11>0.880471</R11><R12>0</R12><R20>0.880471</R20><R21>0.4741</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.590593</X><Y>0.1</Y><Z>0.07</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000093">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000029</Ref>
+        <CoordinateFrame name="C0"><X>0.165</X><Y>0.784024</Y><Z>0.543705</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>-0.4741</R10><R11>0.880471</R11><R12>0</R12><R20>0.880471</R20><R21>0.4741</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000002A">
+    <Properties>
+      <string name="Name">GuardArmSpineCheekLowerPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.165</X><Y>0.695976</Y><Z>0.496295</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0.4741</R10><R11>-0.880471</R11><R12>0</R12><R20>-0.880471</R20><R21>-0.4741</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.590593</X><Y>0.1</Y><Z>0.07</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000094">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000002A</Ref>
+        <CoordinateFrame name="C0"><X>0.165</X><Y>0.695976</Y><Z>0.496295</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0.4741</R10><R11>-0.880471</R11><R12>0</R12><R20>-0.880471</R20><R21>-0.4741</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000002B">
+    <Properties>
+      <string name="Name">GuardArmSpineCheekUpperNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.165</X><Y>0.784024</Y><Z>0.543705</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0.4741</R10><R11>0.880471</R11><R12>0</R12><R20>-0.880471</R20><R21>0.4741</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.590593</X><Y>0.1</Y><Z>0.07</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000095">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000002B</Ref>
+        <CoordinateFrame name="C0"><X>-0.165</X><Y>0.784024</Y><Z>0.543705</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0.4741</R10><R11>0.880471</R11><R12>0</R12><R20>-0.880471</R20><R21>0.4741</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000002C">
+    <Properties>
+      <string name="Name">GuardArmSpineCheekLowerNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.165</X><Y>0.695976</Y><Z>0.496295</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>-0.4741</R10><R11>-0.880471</R11><R12>0</R12><R20>0.880471</R20><R21>-0.4741</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.590593</X><Y>0.1</Y><Z>0.07</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000096">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000002C</Ref>
+        <CoordinateFrame name="C0"><X>-0.165</X><Y>0.695976</Y><Z>0.496295</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>-0.4741</R10><R11>-0.880471</R11><R12>0</R12><R20>0.880471</R20><R21>-0.4741</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX0000002D">
+    <Properties>
+      <string name="Name">RailFwd</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.205</Y><Z>-0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.28</X><Y>0.39</Y><Z>0.19</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000097">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000002D</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.205</Y><Z>-0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX0000002E">
+    <Properties>
+      <string name="Name">RailSpine</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.205</Y><Z>0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.28</X><Y>0.39</Y><Z>0.19</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000098">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000002E</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.205</Y><Z>0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX0000002F">
+    <Properties>
+      <string name="Name">RicassoSill</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.055</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.28</X><Y>0.09</Y><Z>0.2</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX00000099">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000002F</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.055</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000030">
+    <Properties>
+      <string name="Name">Capstone</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.51</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.32</X><Y>0.22</Y><Z>0.58</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000009A">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000030</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.51</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000031">
+    <Properties>
+      <string name="Name">CairnMark1</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.445</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.332</X><Y>0.036</Y><Z>0.2</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000009B">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000031</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.445</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000032">
+    <Properties>
+      <string name="Name">CairnMark2</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.503</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.332</X><Y>0.036</Y><Z>0.13</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000009C">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000032</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.503</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000033">
+    <Properties>
+      <string name="Name">CairnMark3</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.561</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.332</X><Y>0.036</Y><Z>0.06</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000009D">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000033</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.561</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000034">
+    <Properties>
+      <string name="Name">LangetFwdPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.1575</X><Y>1.175</Y><Z>-0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.13</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000009E">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000034</Ref>
+        <CoordinateFrame name="C0"><X>0.1575</X><Y>1.175</Y><Z>-0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000035">
+    <Properties>
+      <string name="Name">LangetFwdTipPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.1575</X><Y>1.335</Y><Z>-0.195</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.035</X><Y>0.07</Y><Z>0.13</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX0000009F">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000035</Ref>
+        <CoordinateFrame name="C0"><X>0.1575</X><Y>1.335</Y><Z>-0.195</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000036">
+    <Properties>
+      <string name="Name">LangetFwdNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.1575</X><Y>1.175</Y><Z>-0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.13</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000A0">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000036</Ref>
+        <CoordinateFrame name="C0"><X>-0.1575</X><Y>1.175</Y><Z>-0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000037">
+    <Properties>
+      <string name="Name">LangetFwdTipNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.1575</X><Y>1.335</Y><Z>-0.195</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.035</X><Y>0.07</Y><Z>0.13</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000A1">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000037</Ref>
+        <CoordinateFrame name="C0"><X>-0.1575</X><Y>1.335</Y><Z>-0.195</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000038">
+    <Properties>
+      <string name="Name">PinFwd</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.18</Y><Z>-0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.707107</R11><R12>-0.707107</R12><R20>0</R20><R21>0.707107</R21><R22>0.707107</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.38</X><Y>0.06</Y><Z>0.06</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000A2">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000038</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.18</Y><Z>-0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.707107</R11><R12>-0.707107</R12><R20>0</R20><R21>0.707107</R21><R22>0.707107</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000039">
+    <Properties>
+      <string name="Name">LangetSpinePX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.1575</X><Y>1.175</Y><Z>0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.13</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000A3">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000039</Ref>
+        <CoordinateFrame name="C0"><X>0.1575</X><Y>1.175</Y><Z>0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000003A">
+    <Properties>
+      <string name="Name">LangetSpineTipPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.1575</X><Y>1.335</Y><Z>0.195</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.035</X><Y>0.07</Y><Z>0.13</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000A4">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000003A</Ref>
+        <CoordinateFrame name="C0"><X>0.1575</X><Y>1.335</Y><Z>0.195</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX0000003B">
+    <Properties>
+      <string name="Name">LangetSpineNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.1575</X><Y>1.175</Y><Z>0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.035</X><Y>0.25</Y><Z>0.13</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000A5">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000003B</Ref>
+        <CoordinateFrame name="C0"><X>-0.1575</X><Y>1.175</Y><Z>0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000003C">
+    <Properties>
+      <string name="Name">LangetSpineTipNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.1575</X><Y>1.335</Y><Z>0.195</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.035</X><Y>0.07</Y><Z>0.13</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4280953128</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000A6">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000003C</Ref>
+        <CoordinateFrame name="C0"><X>-0.1575</X><Y>1.335</Y><Z>0.195</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX0000003D">
+    <Properties>
+      <string name="Name">PinSpine</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.18</Y><Z>0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.707107</R11><R12>-0.707107</R12><R20>0</R20><R21>0.707107</R21><R22>0.707107</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.38</X><Y>0.06</Y><Z>0.06</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000A7">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000003D</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.18</Y><Z>0.195</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.707107</R11><R12>-0.707107</R12><R20>0</R20><R21>0.707107</R21><R22>0.707107</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000003E">
+    <Properties>
+      <string name="Name">ShoulderFwd</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.545</Y><Z>-0.335</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.32</X><Y>0.15</Y><Z>0.09</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000A8">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000003E</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.545</Y><Z>-0.335</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000003F">
+    <Properties>
+      <string name="Name">ShoulderSpine</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.545</Y><Z>0.3775</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.31</X><Y>0.15</Y><Z>0.175</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000A9">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000003F</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.545</Y><Z>0.3775</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000040">
+    <Properties>
+      <string name="Name">EdgeLandLow</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.82</Y><Z>-0.295</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.06</X><Y>0.4</Y><Z>0.17</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000AA">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000040</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.82</Y><Z>-0.295</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000041">
+    <Properties>
+      <string name="Name">EdgeLandHigh</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>3.524199</Y><Z>-0.295</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.06</X><Y>2.768398</Y><Z>0.17</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000AB">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000041</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>3.524199</Y><Z>-0.295</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000042">
+    <Properties>
+      <string name="Name">Tier1FlatFwd</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>2.29</Y><Z>-0.135</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.26</X><Y>1.34</Y><Z>0.15</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000AC">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000042</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>2.29</Y><Z>-0.135</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000043">
+    <Properties>
+      <string name="Name">Tier1FlatSpine</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>2.29</Y><Z>0.175</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.26</X><Y>1.34</Y><Z>0.23</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000AD">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000043</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>2.29</Y><Z>0.175</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000044">
+    <Properties>
+      <string name="Name">Tier1Fuller</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>2.36</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.19</X><Y>1.2</Y><Z>0.12</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281875262</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000AE">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000044</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>2.36</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000045">
+    <Properties>
+      <string name="Name">Tier1FullerFoot</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>1.69</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.26</X><Y>0.14</Y><Z>0.12</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000AF">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000045</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>1.69</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000046">
+    <Properties>
+      <string name="Name">Tier1Rib</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>2.29</Y><Z>0.3775</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.31</X><Y>1.34</Y><Z>0.175</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000B0">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000046</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>2.29</Y><Z>0.3775</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000047">
+    <Properties>
+      <string name="Name">Tier1BevelLowPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.08</X><Y>1.82</Y><Z>-0.295</Z><R00>0</R00><R01>1</R01><R02>0</R02><R10>-1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.4</X><Y>0.1</Y><Z>0.17</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000B1">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000047</Ref>
+        <CoordinateFrame name="C0"><X>0.08</X><Y>1.82</Y><Z>-0.295</Z><R00>0</R00><R01>1</R01><R02>0</R02><R10>-1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000048">
+    <Properties>
+      <string name="Name">Tier1BevelLowNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.08</X><Y>1.82</Y><Z>-0.295</Z><R00>0</R00><R01>-1</R01><R02>0</R02><R10>1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.4</X><Y>0.1</Y><Z>0.17</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000B2">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000048</Ref>
+        <CoordinateFrame name="C0"><X>-0.08</X><Y>1.82</Y><Z>-0.295</Z><R00>0</R00><R01>-1</R01><R02>0</R02><R10>1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000049">
+    <Properties>
+      <string name="Name">Tier1BevelHighPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.08</X><Y>2.55</Y><Z>-0.295</Z><R00>0</R00><R01>1</R01><R02>0</R02><R10>-1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.82</X><Y>0.1</Y><Z>0.17</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000B3">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000049</Ref>
+        <CoordinateFrame name="C0"><X>0.08</X><Y>2.55</Y><Z>-0.295</Z><R00>0</R00><R01>1</R01><R02>0</R02><R10>-1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000004A">
+    <Properties>
+      <string name="Name">Tier1BevelHighNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.08</X><Y>2.55</Y><Z>-0.295</Z><R00>0</R00><R01>-1</R01><R02>0</R02><R10>1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.82</X><Y>0.1</Y><Z>0.17</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000B4">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000004A</Ref>
+        <CoordinateFrame name="C0"><X>-0.08</X><Y>2.55</Y><Z>-0.295</Z><R00>0</R00><R01>-1</R01><R02>0</R02><R10>1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX0000004B">
+    <Properties>
+      <string name="Name">NickFloor</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>2.08</Y><Z>-0.27</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.118824</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000B5">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000004B</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>2.08</Y><Z>-0.27</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000004C">
+    <Properties>
+      <string name="Name">NickBevelPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.094706</X><Y>2.08</Y><Z>-0.27</Z><R00>0</R00><R01>1</R01><R02>0</R02><R10>-1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.12</X><Y>0.070588</Y><Z>0.12</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000B6">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000004C</Ref>
+        <CoordinateFrame name="C0"><X>0.094706</X><Y>2.08</Y><Z>-0.27</Z><R00>0</R00><R01>1</R01><R02>0</R02><R10>-1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000004D">
+    <Properties>
+      <string name="Name">NickBevelNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.094706</X><Y>2.08</Y><Z>-0.27</Z><R00>0</R00><R01>-1</R01><R02>0</R02><R10>1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.12</X><Y>0.070588</Y><Z>0.12</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000B7">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000004D</Ref>
+        <CoordinateFrame name="C0"><X>-0.094706</X><Y>2.08</Y><Z>-0.27</Z><R00>0</R00><R01>-1</R01><R02>0</R02><R10>1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000004E">
+    <Properties>
+      <string name="Name">NickBreak</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>2.08</Y><Z>-0.355</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0</R11><R12>-1</R12><R20>0</R20><R21>-1</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.06</X><Y>0.05</Y><Z>0.12</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000B8">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000004E</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>2.08</Y><Z>-0.355</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0</R11><R12>-1</R12><R20>0</R20><R21>-1</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX0000004F">
+    <Properties>
+      <string name="Name">Tier2FlatFwd</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>3.55</Y><Z>-0.135</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.2</X><Y>1.18</Y><Z>0.15</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000B9">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000004F</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>3.55</Y><Z>-0.135</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000050">
+    <Properties>
+      <string name="Name">Tier2FlatSpine</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>3.55</Y><Z>0.09</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.2</X><Y>1.18</Y><Z>0.06</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000BA">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000050</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>3.55</Y><Z>0.09</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000051">
+    <Properties>
+      <string name="Name">Tier2Fuller</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>3.48</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.13</X><Y>1.04</Y><Z>0.12</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281875262</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000BB">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000051</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>3.48</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000052">
+    <Properties>
+      <string name="Name">Tier2FullerHead</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>4.07</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.2</X><Y>0.14</Y><Z>0.12</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000BC">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000052</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>4.07</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000053">
+    <Properties>
+      <string name="Name">Tier2Rib</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>3.55</Y><Z>0.2075</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.25</X><Y>1.18</Y><Z>0.175</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000BD">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000053</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>3.55</Y><Z>0.2075</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000054">
+    <Properties>
+      <string name="Name">Tier2BevelPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.065</X><Y>3.55</Y><Z>-0.295</Z><R00>0</R00><R01>1</R01><R02>0</R02><R10>-1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>1.18</X><Y>0.07</Y><Z>0.17</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000BE">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000054</Ref>
+        <CoordinateFrame name="C0"><X>0.065</X><Y>3.55</Y><Z>-0.295</Z><R00>0</R00><R01>1</R01><R02>0</R02><R10>-1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000055">
+    <Properties>
+      <string name="Name">Tier2BevelNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.065</X><Y>3.55</Y><Z>-0.295</Z><R00>0</R00><R01>-1</R01><R02>0</R02><R10>1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>1.18</X><Y>0.07</Y><Z>0.17</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000BF">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000055</Ref>
+        <CoordinateFrame name="C0"><X>-0.065</X><Y>3.55</Y><Z>-0.295</Z><R00>0</R00><R01>-1</R01><R02>0</R02><R10>1</R10><R11>0</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000056">
+    <Properties>
+      <string name="Name">Tier2Fillet</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>3.0025</Y><Z>0.3375</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.25</X><Y>0.085</Y><Z>0.085</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000C0">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000056</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>3.0025</Y><Z>0.3375</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000057">
+    <Properties>
+      <string name="Name">Tier3Flat</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>4.488895</Y><Z>-0.117084</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.14</X><Y>0.69779</Y><Z>0.185832</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000C1">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000057</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>4.488895</Y><Z>-0.117084</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000058">
+    <Properties>
+      <string name="Name">Tier3FlatTaper</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>4.86416</Y><Z>-0.117084</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.14</X><Y>0.05274</Y><Z>0.185832</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000C2">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000058</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>4.86416</Y><Z>-0.117084</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000059">
+    <Properties>
+      <string name="Name">Tier3Crown1</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>4.981808</Y><Z>-0.190598</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.529919</R11><R12>-0.848048</R12><R20>0</R20><R21>-0.848048</R21><R22>0.529919</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.14</X><Y>0.129646</Y><Z>0.134253</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000C3">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000059</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>4.981808</Y><Z>-0.190598</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.529919</R11><R12>-0.848048</R12><R20>0</R20><R21>-0.848048</R21><R22>0.529919</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000005A">
+    <Properties>
+      <string name="Name">Tier3Crown2</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>4.86416</Y><Z>-0.117084</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.529919</R11><R12>0.848048</R12><R20>0</R20><R21>-0.848048</R21><R22>-0.529919</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.14</X><Y>0.129646</Y><Z>0.143202</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4283717723</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000C4">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000005A</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>4.86416</Y><Z>-0.117084</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.529919</R11><R12>0.848048</R12><R20>0</R20><R21>-0.848048</R21><R22>-0.529919</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX0000005B">
+    <Properties>
+      <string name="Name">Tier3Rib</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>4.488895</Y><Z>0.050416</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.19</X><Y>0.69779</Y><Z>0.149168</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000C5">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000005B</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>4.488895</Y><Z>0.050416</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000005C">
+    <Properties>
+      <string name="Name">Tier3RibPlunge</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>4.884395</Y><Z>0.050416</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0</R11><R12>-1</R12><R20>0</R20><R21>-1</R21><R22>0</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.19</X><Y>0.149168</Y><Z>0.093211</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000C6">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000005C</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>4.884395</Y><Z>0.050416</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0</R11><R12>-1</R12><R20>0</R20><R21>-1</R21><R22>0</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000005D">
+    <Properties>
+      <string name="Name">Tier3Fillet</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>4.1825</Y><Z>0.1675</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.19</X><Y>0.085</Y><Z>0.085</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000C7">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000005D</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>4.1825</Y><Z>0.1675</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000005E">
+    <Properties>
+      <string name="Name">TipLandEdge1</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>4.975969</Y><Z>-0.272994</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.191051</R11><R12>0.98158</R12><R20>0</R20><R21>0.98158</R21><R22>0.191051</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.06</X><Y>0.184251</Y><Z>0.173541</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000C8">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000005E</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>4.975969</Y><Z>-0.272994</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.191051</R11><R12>0.98158</R12><R20>0</R20><R21>0.98158</R21><R22>0.191051</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000005F">
+    <Properties>
+      <string name="Name">TipLandEdge2</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>5.296542</Y><Z>-0.210598</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.191051</R11><R12>-0.98158</R12><R20>0</R20><R21>0.98158</R21><R22>-0.191051</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.06</X><Y>0.184251</Y><Z>0.479637</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000C9">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000005F</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>5.296542</Y><Z>-0.210598</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.191051</R11><R12>-0.98158</R12><R20>0</R20><R21>0.98158</R21><R22>-0.191051</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000060">
+    <Properties>
+      <string name="Name">TipLandClip1</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>5.296542</Y><Z>-0.210598</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.516731</R11><R12>-0.856148</R12><R20>0</R20><R21>-0.856148</R21><R22>0.516731</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.06</X><Y>0.18508</Y><Z>0.479318</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000CA">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000060</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>5.296542</Y><Z>-0.210598</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.516731</R11><R12>-0.856148</R12><R20>0</R20><R21>-0.856148</R21><R22>0.516731</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000061">
+    <Properties>
+      <string name="Name">TipLandClip2</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0</X><Y>4.985708</Y><Z>-0.022994</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.516731</R11><R12>0.856148</R12><R20>0</R20><R21>-0.856148</R21><R22>-0.516731</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.06</X><Y>0.18508</Y><Z>0.246804</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000CB">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000061</Ref>
+        <CoordinateFrame name="C0"><X>0</X><Y>4.985708</Y><Z>-0.022994</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.516731</R11><R12>0.856148</R12><R20>0</R20><R21>-0.856148</R21><R22>-0.516731</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000062">
+    <Properties>
+      <string name="Name">FacetEdgePX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.036372</X><Y>4.524199</Y><Z>-0.291793</Z><R00>0.973417</R00><R01>0</R01><R02>0.229039</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-0.229039</R20><R21>0</R21><R22>0.973417</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.028</X><Y>0.776398</Y><Z>0.174642</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000CC">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000062</Ref>
+        <CoordinateFrame name="C0"><X>0.036372</X><Y>4.524199</Y><Z>-0.291793</Z><R00>0.973417</R00><R01>0</R01><R02>0.229039</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-0.229039</R20><R21>0</R21><R22>0.973417</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000063">
+    <Properties>
+      <string name="Name">FacetRisePX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.036372</X><Y>4.990075</Y><Z>-0.272462</Z><R00>-0.973417</R00><R01>0</R01><R02>-0.229039</R02><R10>-0.04762</R10><R11>0.978148</R11><R12>0.202385</R12><R20>0.224034</R20><R21>0.207912</R21><R22>-0.952146</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.028</X><Y>0.204501</Y><Z>0.174642</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000CD">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000063</Ref>
+        <CoordinateFrame name="C0"><X>0.036372</X><Y>4.990075</Y><Z>-0.272462</Z><R00>-0.973417</R00><R01>0</R01><R02>-0.229039</R02><R10>-0.04762</R10><R11>0.978148</R11><R12>0.202385</R12><R20>0.224034</R20><R21>0.207912</R21><R22>-0.952146</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000064">
+    <Properties>
+      <string name="Name">FacetRisePointPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.036372</X><Y>5.295876</Y><Z>-0.207462</Z><R00>0.973417</R00><R01>0.229039</R01><R02>0</R02><R10>0.04762</R10><R11>-0.202385</R11><R12>-0.978148</R12><R20>-0.224034</R20><R21>0.952146</R21><R22>-0.207912</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.028</X><Y>0.174642</Y><Z>0.420765</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000CE">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000064</Ref>
+        <CoordinateFrame name="C0"><X>0.036372</X><Y>5.295876</Y><Z>-0.207462</Z><R00>0.973417</R00><R01>0.229039</R01><R02>0</R02><R10>0.04762</R10><R11>-0.202385</R11><R12>-0.978148</R12><R20>-0.224034</R20><R21>0.952146</R21><R22>-0.207912</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000065">
+    <Properties>
+      <string name="Name">FacetClipPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.036372</X><Y>4.998781</Y><Z>-0.028318</Z><R00>0.973417</R00><R01>0</R01><R02>-0.229039</R02><R10>0.121372</R10><R11>0.848048</R11><R12>0.515833</R12><R20>0.194236</R20><R21>-0.529919</R21><R22>0.825505</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.028</X><Y>0.277455</Y><Z>0.174642</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000CF">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000065</Ref>
+        <CoordinateFrame name="C0"><X>0.036372</X><Y>4.998781</Y><Z>-0.028318</Z><R00>0.973417</R00><R01>0</R01><R02>-0.229039</R02><R10>0.121372</R10><R11>0.848048</R11><R12>0.515833</R12><R20>0.194236</R20><R21>-0.529919</R21><R22>0.825505</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000066">
+    <Properties>
+      <string name="Name">FacetClipPointPX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>0.036372</X><Y>5.294843</Y><Z>-0.213318</Z><R00>-0.973417</R00><R01>0.229039</R01><R02>0</R02><R10>-0.121372</R10><R11>-0.515833</R11><R12>-0.848048</R12><R20>-0.194236</R20><R21>-0.825505</R21><R22>0.529919</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.028</X><Y>0.174642</Y><Z>0.420765</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000D0">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000066</Ref>
+        <CoordinateFrame name="C0"><X>0.036372</X><Y>5.294843</Y><Z>-0.213318</Z><R00>-0.973417</R00><R01>0.229039</R01><R02>0</R02><R10>-0.121372</R10><R11>-0.515833</R11><R12>-0.848048</R12><R20>-0.194236</R20><R21>-0.825505</R21><R22>0.529919</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000067">
+    <Properties>
+      <string name="Name">FacetEdgeNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.036372</X><Y>4.524199</Y><Z>-0.291793</Z><R00>0.973417</R00><R01>0</R01><R02>-0.229039</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.229039</R20><R21>0</R21><R22>0.973417</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.028</X><Y>0.776398</Y><Z>0.174642</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000D1">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000067</Ref>
+        <CoordinateFrame name="C0"><X>-0.036372</X><Y>4.524199</Y><Z>-0.291793</Z><R00>0.973417</R00><R01>0</R01><R02>-0.229039</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.229039</R20><R21>0</R21><R22>0.973417</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX00000068">
+    <Properties>
+      <string name="Name">FacetRiseNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.036372</X><Y>4.990075</Y><Z>-0.272462</Z><R00>-0.973417</R00><R01>0</R01><R02>0.229039</R02><R10>0.04762</R10><R11>0.978148</R11><R12>0.202385</R12><R20>-0.224034</R20><R21>0.207912</R21><R22>-0.952146</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.028</X><Y>0.204501</Y><Z>0.174642</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000D2">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000068</Ref>
+        <CoordinateFrame name="C0"><X>-0.036372</X><Y>4.990075</Y><Z>-0.272462</Z><R00>-0.973417</R00><R01>0</R01><R02>0.229039</R02><R10>0.04762</R10><R11>0.978148</R11><R12>0.202385</R12><R20>-0.224034</R20><R21>0.207912</R21><R22>-0.952146</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX00000069">
+    <Properties>
+      <string name="Name">FacetRisePointNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.036372</X><Y>5.295876</Y><Z>-0.207462</Z><R00>0.973417</R00><R01>-0.229039</R01><R02>0</R02><R10>-0.04762</R10><R11>-0.202385</R11><R12>-0.978148</R12><R20>0.224034</R20><R21>0.952146</R21><R22>-0.207912</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.028</X><Y>0.174642</Y><Z>0.420765</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4287073423</Color3uint8>
+      <token name="Material">1088</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000D3">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX00000069</Ref>
+        <CoordinateFrame name="C0"><X>-0.036372</X><Y>5.295876</Y><Z>-0.207462</Z><R00>0.973417</R00><R01>-0.229039</R01><R02>0</R02><R10>-0.04762</R10><R11>-0.202385</R11><R12>-0.978148</R12><R20>0.224034</R20><R21>0.952146</R21><R22>-0.207912</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Part" referent="RBX0000006A">
+    <Properties>
+      <string name="Name">FacetClipNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.036372</X><Y>4.998781</Y><Z>-0.028318</Z><R00>0.973417</R00><R01>0</R01><R02>0.229039</R02><R10>-0.121372</R10><R11>0.848048</R11><R12>0.515833</R12><R20>-0.194236</R20><R21>-0.529919</R21><R22>0.825505</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.028</X><Y>0.277455</Y><Z>0.174642</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+      <token name="shape">1</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000D4">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000006A</Ref>
+        <CoordinateFrame name="C0"><X>-0.036372</X><Y>4.998781</Y><Z>-0.028318</Z><R00>0.973417</R00><R01>0</R01><R02>0.229039</R02><R10>-0.121372</R10><R11>0.848048</R11><R12>0.515833</R12><R20>-0.194236</R20><R21>-0.529919</R21><R22>0.825505</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="WedgePart" referent="RBX0000006B">
+    <Properties>
+      <string name="Name">FacetClipPointNX</string>
+      <bool name="Anchored">false</bool>
+      <bool name="CanCollide">false</bool>
+      <bool name="CanTouch">false</bool>
+      <bool name="CanQuery">false</bool>
+      <bool name="Massless">true</bool>
+      <bool name="Locked">false</bool>
+      <CoordinateFrame name="CFrame"><X>-0.036372</X><Y>5.294843</Y><Z>-0.213318</Z><R00>-0.973417</R00><R01>-0.229039</R01><R02>0</R02><R10>0.121372</R10><R11>-0.515833</R11><R12>-0.848048</R12><R20>0.194236</R20><R21>-0.825505</R21><R22>0.529919</R22></CoordinateFrame>
+      <Vector3 name="size"><X>0.028</X><Y>0.174642</Y><Z>0.420765</Z></Vector3>
+      <Color3uint8 name="Color3uint8">4281019438</Color3uint8>
+      <token name="Material">1040</token>
+      <float name="Reflectance">0</float>
+      <float name="Transparency">0</float>
+      <token name="TopSurface">0</token>
+      <token name="BottomSurface">0</token>
+      <token name="FrontSurface">0</token>
+      <token name="BackSurface">0</token>
+      <token name="LeftSurface">0</token>
+      <token name="RightSurface">0</token>
+    </Properties>
+    <Item class="Weld" referent="RBX000000D5">
+      <Properties>
+        <string name="Name">WeaponWeld</string>
+        <Ref name="Part0">RBX00000001</Ref>
+        <Ref name="Part1">RBX0000006B</Ref>
+        <CoordinateFrame name="C0"><X>-0.036372</X><Y>5.294843</Y><Z>-0.213318</Z><R00>-0.973417</R00><R01>-0.229039</R01><R02>0</R02><R10>0.121372</R10><R11>-0.515833</R11><R12>-0.848048</R12><R20>0.194236</R20><R21>-0.825505</R21><R22>0.529919</R22></CoordinateFrame>
+        <CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+      </Properties>
+    </Item>
+  </Item>
+</Item>
+</roblox>
